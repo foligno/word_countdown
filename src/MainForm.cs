@@ -120,6 +120,7 @@ namespace Countdown
 
         private void documentListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // When a document is selected in the list, change the current selected document
             if (documentListBox.SelectedIndex >= 0)
             {
                 if (wordObj != null)

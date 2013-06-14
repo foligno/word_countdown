@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(timeLeftForm));
             this.timeLabel = new System.Windows.Forms.Label();
             this.updateTimer = new System.Windows.Forms.Timer(this.components);
             this.daysLeft = new System.Windows.Forms.Label();
@@ -216,11 +217,12 @@
             this.Controls.Add(this.timeThenLabel);
             this.Controls.Add(this.timeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "timeLeftForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Doomsday Counter";
+            this.Text = "Word Counter";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.wordsTargetBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.timePicker)).EndInit();
