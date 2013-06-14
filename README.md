@@ -13,3 +13,9 @@ Once you have your word document ready, follow the steps below to start calculat
 2. Select word document from list.
 3. Drag left slider up and down to specify word target.
 4. Set date and time target with drop-down and slider on the right.
+
+## About
+
+This small application was created in an hour or two, in order to serve as motivation while writing reports!
+
+Spoiler alert: Seeing how many words you have left is usually not motivation.
