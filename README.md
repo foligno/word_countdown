@@ -7,7 +7,7 @@ A simple words-per-hour calculator for writers with a word limit and limited tim
 
 Using this application, you can track how many words you will need to write per hour in order to meet your writing deadline.
 
-This small application was created in an hour or two, in order to serve as motivation while writing reports!
+This small application was created in and hour or two, making use of the `Microsoft.Office.Interop.Word` namespace, in order to serve as motivation while writing reports!
 
 Spoiler alert: Seeing how many words you have left is usually not motivation.
 
